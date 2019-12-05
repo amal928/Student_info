@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="#B0E0E6"
+    android:orientation="vertical"
+    android:padding="70dp"
+    tools:context=".student">
+
+    <TextView
+        android:id="@+id/studentname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="amal mohsen"
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/studentid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="153264"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/studentuniversity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alazhaer university"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/studentexpertise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sjkdfd"
+        android:textColor="#000" />
+</LinearLayout>
